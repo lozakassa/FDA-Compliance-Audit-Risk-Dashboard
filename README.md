@@ -36,12 +36,12 @@ This calculation breaks out of localized slicer filters using the `ALL()` functi
 Below are the final, polished visualizations powered by the DAX data model, optimized for executive review.
 
 ### 1. The Executive Summary
-![Audit Priority Level Breakdown](Audit%20Priority%20Level%20Breakdown_2.png)
+![Audit Priority Level Breakdown](Audit Priority Level Breakdown.png)
 
 **Explanation:** This zero-lag bucket chart is built directly from the `Audit Priority Level` column. It aggregates the data to instantly show leadership the overall volume of facilities residing in Critical, High, and Low-risk states. By bucketing the data instead of plotting individual facilities, the visualization remains lightweight and highly responsive.
 
 ### 2. The Severity Matrix
-![Maximum Days Neglected by Project Area](Maximum%20Days%20Neglected%20by%20Project%20Area_2.png)
+![Maximum Days Neglected by Project Area](Maxi.png)
 
 **Explanation:** This cleaned, 2D horizontal bar chart utilizes the `Imminent Inspection Target` DAX measure. The data is deliberately sorted by severity (largest to smallest) to immediately draw executive attention to the specific project areas suffering from the most extreme cases of audit neglect, many of which have hit a cap of 6,500 days.
 
