@@ -21,7 +21,7 @@ A tiered bucket system used as the primary axis for high-level dashboard filteri
 *   **4 - LOW:** Compliant & Up to Date
 
 ## 🧠 Phase 2: DAX Data Modeling (The Engine)
-Instead of relying on standard PivotTables—which crash when attempting to render hundreds of thousands of text strings—I built a custom Tabular Data Model using Data Analysis Expressions (DAX) to act as a computational gatekeeper.
+Instead of relying on standard PivotTables,which crash when attempting to render hundreds of thousands of text strings,I built a custom Tabular Data Model using Data Analysis Expressions (DAX) to act as a computational gatekeeper.
 
 ### Function 1: The Threshold Model (Imminent Inspection Target)
 This measure forces the calculation engine to completely ignore safe facilities, returning a blank value for anything under the 365-day threshold. This saves critical RAM and isolates the exact targets for the severity chart.
